@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+#game-tiles{
+    height: 510px;
+    width: 510px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    border: 1px solid black;
+    height: 169px;
+    width: 149px;
+    text-align: center;
+    font-size:100px;
+    cursor: pointer;
+}
+
+#main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#result{
+    font-size: 30px;
+    height: 60px;
+    color: green;
+    margin-top: 10px;
+}
+
+#restart{
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
