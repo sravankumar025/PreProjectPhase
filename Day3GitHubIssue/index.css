@@ -1,0 +1,39 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #05bcc274;
+}
+h1{
+    color: purple;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#list-container{
+    border: 3px solid black;
+    height: 440px;
+    width: 600px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li{
+    border: 2px solid black;
+    margin: 15px;
+    height: 50px;
+    width:500px;
+    padding:15px 0px 0px 10px;
+    border-radius: 10px;
+    font-size:large;
+    font-weight: 500;
+    background-color: aqua;
+}
